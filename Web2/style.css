@@ -1,0 +1,18 @@
+p{
+    color: rgb(31, 30, 30);
+    font-size: 13pt;
+}
+
+ul{
+    font-size: 13pt;
+}
+
+table,th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
