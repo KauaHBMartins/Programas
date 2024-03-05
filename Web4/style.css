@@ -1,0 +1,90 @@
+/* regra CSS 
+    Seletor {
+        propriedade valor;
+    }
+*/
+
+thead th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+caption{
+    border: 1px solid black;
+}
+img{
+    width: 100px;
+    display: block;
+}
+span {
+    display: block;
+}
+
+ul , ol{
+    display: inline-block;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+}
+tfoot{
+    background-color: yellow;
+}
+
+
+div  img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+#churras{
+    width: 300px;
+}
+
+html{
+    border: 1px solid purple;
+}
+
+body{
+    border: 1px solid goldenrod;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#box1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: lightgreen;
+    background-image: url(casa.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 120px 130px;
+    border-radius: 50%;
+    text-align: center;
+}
+#box1:houver{
+    zoom: 1,4;
+}
+
+body{
+    background-color: lightgray;
+    background-image: url(shaco.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-attachment: fixed;
+}
